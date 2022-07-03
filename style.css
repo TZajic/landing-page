@@ -1,5 +1,5 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 200px;
+    padding: 8px 300px;
 }
 .logo {
     font-size: 24px;
@@ -34,14 +34,15 @@ ul {
     display: flex;
     padding: 0;
     margin: 0;
-    gap: 8px;
+    gap: 25px;
 }
 
 .intro {
-    display: inline-flex;
-    padding: 50px 200px;
+    display: flex;
+    padding: 50px 300px;
     justify-content: space-between;
 }
+
 
 .aw-head {
     font-size: 48px;
@@ -49,11 +50,18 @@ ul {
     color: #f9faf8;
 }
 
+.aw-text {
+    padding-bottom: 25px;
+}
+
 .sign-top,
 .sign-bottom {
     background-color: #3882f6;
-    color: #e5e7eb;
-    padding: 5px 15px;
+    color: #f9faf8;
+    padding: 10px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 25px;
 }
 
 .sign-top {
@@ -65,13 +73,88 @@ ul {
 }
 
 .information {
-    padding: 50px 500px;
+    padding: 30px 300px;
+    color: #1f2937;
+}
+
+.info-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px; 
+    font-weight: bolder; 
+    padding-bottom: 30px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+}
+
+.box-image {
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    border-color: #3882f6;
+    border-radius: 25px;
+}
+
+.box-text {
+    width: 150px;
     text-align: center;
+}
+
+.quote {
+    padding: 70px 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding-bottom: 15px;
+}
+
+.thor {
+    font-weight: bolder;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.call {
+    padding: 50px 300px;
+    display: flex;
+    align-items: center;
+}
+
+.call-box {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 25px;
+    margin: 50px 300px;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cb-text-head {
+    font-weight: bolder;
+}
+
+.sign-bottom {
+    border: 2px solid #f9faf8;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px
+    padding: 25px;
 }
